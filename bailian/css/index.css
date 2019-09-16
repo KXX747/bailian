@@ -2,6 +2,8 @@
 .margin{
 	width:1190px;
 	margin:0 auto;
+
+
 	
 }
 
@@ -9,8 +11,6 @@ body{
 	overflow-x: hidden;
 	width:100%;
 	height:100%;
-	background:#fff;
-
 }
 
 /* 楼层 */
@@ -23,12 +23,11 @@ body{
 }
 #lt ul li{
 	width:40px;
-	height:60px;
-	background:#BB0000;
+	height:40px;
+	background:#80BDFF;
 	border-radius:50%;
-	font: 14px/2 "";
+	font: 20px/2 "";
 	margin-bottom: 15px;
-	line-height: 60px;
 }
 #lt ul li a{
 	color:#fff;
@@ -233,7 +232,7 @@ nav	.box-l i  {
 
 nav .nav-list .nav-bg{
 	background:#999;
-	visibility: "hidden";
+	visibility:"hidden";
 }
 
 nav .box-l i {
@@ -336,14 +335,17 @@ nav ul li a:hover{
 
 
 nav .shopdetail{
-	/* border:2px solid red; */
+	border:2px solid red;
 	background: #fff;
 	width:1000px;
 	height: 400px;
 	position:relative;
 	top:40px;
 	margin-left: 190px;
+	
 }
+
+
 
 
 
@@ -383,7 +385,6 @@ nav .shopdetail{
 	width: 565px;
 	margin:220px 398px;
 	position: absolute;
-
 }
 .btns i{
 	display: inline-block;
@@ -556,11 +557,11 @@ main .famliy .left{
 }
 
 	/* 超值团买购 */
-/* 
+
  #chaozhituan{
 	height:290px;
 	width:100%;
-	background:#fff;
+
 	margin-top:80px;
 
 }
@@ -615,24 +616,19 @@ main .famliy .left{
 #chaozhituan .praise-r ul li a:hover{
 	color:#ff5c00;
 }
- */
+
 
 
 /* 猜你喜欢部分 */
 
 .featured-tit {
     margin: 8px 4px;
-    /* height: 30px; */
+    height: 30px;
     line-height: 30px;
     font-size: 24px;
     color: #3e3e3e;
     /* background: url(https://img.iblimg.com/respc-1/resources/v4.2/css/i/guess_bg.) repeat-x 0 center; */
-	font-weight: 400;
-	background:#fff;
-	/*height:800px;*/
-	margin-left: 30px;
-	z-index: 1;
-	padding-top:40px;
+    font-weight: 400;
 }
 .featured-tit .guess-love {
     width: 255px;
@@ -647,101 +643,6 @@ main .famliy .left{
     font-size: 16px;
     color: #999;
 }
-
-.featured-tit .like-class{
-	height: 340px;
-    margin-bottom: 10px;
-}
-.featured-tit .like-class ol{
-	list-style-type: decimal;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-.featured-tit .like-class li{
-	float: left;
-    height: 340px;
-    margin: 0 5px;
-    position: relative;
-    width: 230px;
-    background: #fff;;
-}
-.featured-tit .featured_log{
-	float:right;
-	font:14px "";
-}
-
-.featured-tit .featured_log a{
-	color:red;
-}
-
-.featured-tit .featured-tit-shop {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left:60px;
-	margin-top:20px;
-}
-
-.featured-tit .pro-show{
-	height: 338px;
-    width: 248px;
-    border: 1px solid #e4e4e4;
-    background: #fff;
-    transition: all 1s;
-	margin-right: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left:60px;
-
-}
-
-.featured-tit .pro-img img{
-	width:220px;
-	height:220px;
-	margin-top:10px;
-}
-
- .pro-name a{
-	color: #666;
-	text-decoration: none;
-	font:14px "";
-	margin-left:20px;
-}
-
-.featured-tit .pro-money{
-	padding: 0 11px;
-    height: 26px;
-    margin-top: 25px;
-	position: relative;
-	
-}
-.featured-tit .pro-money .pro-money-l{
-	color: #ff6f6f;
-    font-family: Verdana,Geneva,sans-serif;
-    font-size: 12px;
-    line-height: 26px;
-}
-
-.featured-tit .pro-money .pro-money-l span{
-	font-size: 18px;
-	color: #ff6f6f;
-}
-.featured-tit .pro-money .pro-money-l .collection{
-	float: right;
-    padding: 0 10px 0 25px;
-    height: 20px;
-    margin-top: 3px;
-    *margin-top: -22px;
-    line-height: 18px;
-    *line-height: 20px;
-    background: url(http://img.iblimg.com/respc-1/resources/v4.2/css/i/guess_ic1.jpg) no-repeat 7px 4px;
-    border: 1px solid #eee;
-    color: #999;
-    border-radius: 11px;
-}
-
 
 	/* 尾部 */
 	#food{
@@ -764,7 +665,7 @@ main .famliy .left{
 	  display: flex;
 	  justify-content: space-around;
 	  margin-top:30px;
-
+	  background: #f3f3f3;
 	  padding: 24px 0;
   
   }
@@ -787,12 +688,12 @@ main .famliy .left{
   #food .foot-b{
   
 	  line-height: 24px;
-
+	  /* text-align: center; */
 	  padding: 15px 0 0;
-	
-	  position: relative;
-	  left:300px;
-
+	  color: #999;
+	  /* position: relative;
+	  left:300px; */
+	  background: #f3f3f3;
 	  display: flex;
 	  justify-content: space-around;
   }

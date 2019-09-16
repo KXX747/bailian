@@ -23,7 +23,7 @@ for(var i=0;i<odl.length;i++){
         var index = this.index;
         for(var j=0;j<odl.length;j++){
             odl[j].className="box-l";
-          //  odiv[index].className = "menu_detail menu";
+            odiv[index].className = "menu_detail menu";
         }
         this.className ="box-l nav-bg";
         odiv[index].className = "menu_detail menu_block";
@@ -43,6 +43,7 @@ for(var i=0;i<odl.length;i++){
         console.log("设置第"+(index+1)+"条数据隐藏");
         hide();
     }
+
 }
 
 // 商品分类详情显示
@@ -50,7 +51,10 @@ function show(){
     console.log("show()...");
     oshopdetail.style.visibility= "visible";
     oshopdetail.style.backgroundColor="#fff";
+
+
 }
+
 // 商品分类详情隐藏
 function hide(){
     console.log("hide()....");
